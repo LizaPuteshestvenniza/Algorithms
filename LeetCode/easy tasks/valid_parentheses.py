@@ -1,9 +1,5 @@
 class Solution(object):
     def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
         while (len(s) != 0) and (len(s) % 2 == 0) and (('(' in s and ')' in s) or ('[' in s and ']' in s) or ('{' in s and '}' in s)):
             size = len(s)
             if (size == 2) and ((s[0] == ')' and s[1] == '(') or (s[0] == ']' and s[1] == '[') or (s[0] == '}' and s[1] == '{')):
