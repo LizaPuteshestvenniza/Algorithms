@@ -12,7 +12,7 @@ def longestPalindrome(s):
                 cnt = len(tmp)
     return ans
 
-# решение за O(n^2):
+# решение за O(n^2): 167/180 тестов
 def longestPalindrome(s):
     ans = ''
     cnt = 0
