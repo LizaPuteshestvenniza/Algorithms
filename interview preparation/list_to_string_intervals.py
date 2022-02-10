@@ -12,7 +12,7 @@ def intervals(l):
             l.remove(l[0])
         elif ans[-1] == '-' and l[0] == l[1] - 1:
             l.remove(l[0])
-        elif l[0] != l[1]:
+        elif l[0] != l[1] - 1:
             ans += str(l[0]) + ','
             l.remove(l[0])
     ans = ans[:-1]
